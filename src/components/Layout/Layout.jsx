@@ -6,7 +6,7 @@ function Layout() {
   return (
     <>
       <Navbar />
-      <section className="mx-auto max-w-7xl">
+      <section className="mx-auto max-w-7xl min-h-screen">
         <Outlet></Outlet>
       </section>
       <Footer />
